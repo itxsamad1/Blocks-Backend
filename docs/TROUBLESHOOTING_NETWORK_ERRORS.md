@@ -363,3 +363,4 @@ Make sure:
 3. Phone and computer are on the same network (for physical devices)
 4. Firewall allows connections on port 3000
 
+

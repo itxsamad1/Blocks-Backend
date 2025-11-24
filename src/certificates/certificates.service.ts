@@ -167,7 +167,7 @@ export class CertificatesService {
 
       this.logger.log(`[CertificatesService] 📄 Generating PDF from HTML...`);
 
-      // Generate PDF
+      // Generate PDF from HTML
       const pdfBuffer = await this.pdfService.generateFromHtml(html);
 
       this.logger.log(`[CertificatesService] 📦 PDF generated (${pdfBuffer.length} bytes)`);
@@ -516,5 +516,6 @@ export class CertificatesService {
     });
     return crypto.createHash('sha256').update(data).digest('hex');
   }
+
 }
 

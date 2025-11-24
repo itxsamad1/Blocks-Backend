@@ -144,3 +144,4 @@ Should return:
 3. Verify certificates appear in Supabase storage
 4. Confirm certificatePath is saved in both transaction and investment tables
 
+
